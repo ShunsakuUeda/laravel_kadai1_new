@@ -1,0 +1,15 @@
+html{
+    font-size: 50%;
+}
+
+body{
+    color: #333;
+    font-size: 1.6rem;
+}
+
+.link{
+    margin: -2.00em 0 10px;
+    font-size: 30%;
+    line-height: 1.5;
+    text-align: right;
+}
