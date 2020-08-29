@@ -7,19 +7,19 @@ use Illuminate\Http\Request;
 class LoginController extends Controller
 {
     //ログイン画面
-    public function usrLoginIndex(Request $request){
+    public function LoginIndex(Request $request){
         $email = $request->email;
         $password = $request->password;
         return view('layouts.login', );
     }
 
-    public function usrLogin(Request $request){
+    public function Login(Request $request){
         $email = $request->email;
         $password = $request->password;
         return view('layouts.login', );
     }
     //ユーザー登録画面
-    public function usrRegisterIndex(Request $request){
+    public function RegisterIndex(Request $request){
         $email = $request->email;
         $name = $request->name;
         $password = $request->password;
@@ -27,7 +27,7 @@ class LoginController extends Controller
         return view('layouts.register', );
     }
 
-    public function usrRegister(Request $request){
+    public function Register(Request $request){
         $email = $request->email;
         $name = $request->name;
         $password = $request->password;
